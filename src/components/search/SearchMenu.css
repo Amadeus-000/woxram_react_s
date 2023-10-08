@@ -1,0 +1,12 @@
+details summary {
+    list-style: none;
+}
+  
+details summary::-webkit-details-marker {
+    display: none;
+}
+.custom-input-label {
+    white-space: normal;
+    line-height: 1.2;
+    word-wrap: break-word;
+  }
