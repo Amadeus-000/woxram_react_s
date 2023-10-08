@@ -35,7 +35,7 @@ const SearchMenu = (props) => {
         axios.get('https://woxram-api.com/search/',
         // axios.get('https://woxram.com/django/api/woxramsearch2/',
             // {params: {keyword:query.get("keyword"), order:query.get("order"), sample:query.get("sample"), dlsite:query.get("dlsite"),page:query.get("page")}}
-            {params: {keyword:searchKeyword, sample:isSample?'on':'' , dlsite:isDlsite?'on':'' , order:selectedOrderValue, page:page }}
+            {params: {keyword:searchKeyword, sample:isSample?'on':'' , dlsite:isDlsite?'on':'' , order:selectedOrderValue, page:page, safe:"on" }}
         )
         .then(function (response) {
                 const result = JSON.stringify(response.data);

@@ -26,9 +26,6 @@ const TopImg = () => {
             <Grid container justifyContent="center">
                 <div style={{marginBottom:"0.5rem"}}>Woxramはボイス・ASMRの<strong style={{color:GlobalConstant.color1}}> "セリフ" </strong>を検索することができるサービスです。</div>
             </Grid>
-            <Grid container justifyContent="center">
-                <div style={{marginBottom:"0.5rem"}}><SearchExamples /></div>
-            </Grid>
         </>
     );
 };
