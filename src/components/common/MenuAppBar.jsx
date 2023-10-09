@@ -77,7 +77,7 @@ const MenuAppBar = () => {
                         <MenuIcon />
                     </IconButton>
                     <img src={logoimg} alt="woxram logo" style={{height:"2rem",marginLeft:"0.1rem"}} />
-                    <a href='https://woxram.com/'><img src={title} alt="woxram logo" style={{height:"1.2rem",marginTop:"0.3rem",marginLeft:"0.4rem"}} /></a>
+                    <a href='https://woxram.site/'><img src={title} alt="woxram logo" style={{height:"1.2rem",marginTop:"0.3rem",marginLeft:"0.4rem"}} /></a>
                     </div>
 
                     {/* 右側 */}
@@ -91,9 +91,6 @@ const MenuAppBar = () => {
                 <List component="nav">
                     <ListItem>
                         <ListItemButton component="a" href="/" rel="noopener noreferrer"><ListItemText primary="ホーム" /></ListItemButton>
-                    </ListItem>
-                    <ListItem>
-                        <ListItemButton component="a" href="https://twitter.com/woxram" rel="noopener noreferrer"><ListItemText primary="Twitter" /></ListItemButton>
                     </ListItem>
                     <ListItem>
                         <ListItemButton component="a" href="/about/" rel="noopener noreferrer"><ListItemText primary="サイトについて" /></ListItemButton>

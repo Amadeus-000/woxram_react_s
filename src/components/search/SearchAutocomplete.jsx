@@ -6,12 +6,12 @@ import './SearchAutocomplete.css';
 
 
 let suggestions = [
-  'Apple','application','apply', 'Banana', 'Cherry', 'Date', 'Fig', 'Grape', 'Lemon', 'Mango', 'Orange', 'Pineapple', 'Strawberry'
+  '',
 ];
-axios.get('https://woxram-api.com/search/getnamelist/')
-  .then(function (response) {
-      suggestions=response.data;
-})
+// axios.get('https://woxram-api.com/search/getnamelist/')
+//   .then(function (response) {
+//       suggestions=response.data;
+// })
 
 const RoundedInput = styled("input")({
     borderRadius: "50px",
