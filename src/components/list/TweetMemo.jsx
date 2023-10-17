@@ -24,11 +24,11 @@ const TweetMemo=(props)=>{
           const url="https://woxram-api.com/account/getmemoid/";
           axios.get(url,{params:data})
           .then((res)=>{
-            navigator.clipboard.writeText("https://woxram.com/?memo="+res.data);
+            navigator.clipboard.writeText("https://woxram.site/?memo="+res.data);
             setMsg("コピー済　");
             setColor("black");
             setShareurl("https://twitter.com/intent/tweet?text=https://woxram.com/?memo="+res.data);
-            setMemourl("https://woxram.com/?memo="+res.data);
+            setMemourl("https://woxram.site/?memo="+res.data);
             console.log("Text copied to clipboard");
           });
         } catch (err) {
